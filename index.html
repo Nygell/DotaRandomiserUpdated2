@@ -4,15 +4,13 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>Clicking Cooker</title>
-
 	<script type='text/javascript' src='http://code.jquery.com/jquery-1.4.4.min.js'></script>
-
-	<script type='text/javascript'>//<![CDATA[ 
+	<script type='text/javascript'>
 	$(window).load(function(){
 	$('#target').click(function() {
-		$('#output').html(function(i, val) { return val*1+1 });
+		$('#output').val(function(i, val) { return val*1+1 });
 	});
-	});//]]>  
+	});
 
 	</script>
 
@@ -20,9 +18,8 @@
 <body>
 
 	<button id="target" type="button"><img src="assets/img/cookie.jpg"></button>
-	<div>Cookering Clicks Clicked:</div>
-	<div id="output">0</div>
-  
+	<div>Cookering Clicks Clicked:<input type="text" id="output" value="0" readonly></div>
+
 </body>
 </html>
 
