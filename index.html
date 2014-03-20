@@ -4,14 +4,16 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>Clicking Cooker</title>
-	<script type='text/javascript' src='http://code.jquery.com/jquery-1.4.4.min.js'></script>
+	<script type='text/javascript' src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
 	<script type='text/javascript'>
 	$(window).load(function(){
 	$('#target').click(function() {
-		var messages = ["Good click bro!", "You suck bro!", "Think you can throw my cook up there bro?", "Venom with a skullcap"]
+		var messages = ["Good click bro!", "You suck bro!", "Think you can throw my cook up there bro?",
+						"Venom with a skullcap.", "Cook on, now and forever.", "Cook them thigs.", "Get cook with it.",
+						"Cook la Click.", "Cooktrek The Next Clickenation.", "Her cook click smooth like Calliou."]
 		var click_amount = $('#clicks').val() * 1;
 		$('#clicks').val(click_amount + 1);
-		$('#message').html(messages[click_amount % 4])
+		$('#message').html(messages[click_amount % messages.length])
 	});
 	});
 
