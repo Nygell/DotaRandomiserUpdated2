@@ -8,7 +8,10 @@
 	<script type='text/javascript'>
 	$(window).load(function(){
 	$('#target').click(function() {
-		$('#output').val(function(i, val) { return val*1+1 });
+		var messages = ["Good click bro!", "You suck bro!", "Think you can throw my cook up there bro?", "Venom with a skullcap"]
+		var click_amount = $('#clicks').val() * 1;
+		$('#clicks').val(click_amount + 1);
+		$('#message').html(messages[click_amount % 4])
 	});
 	});
 
@@ -18,7 +21,8 @@
 <body>
 
 	<button id="target" type="button"><img src="assets/img/cookie.jpg"></button>
-	<div>Cookering Clicks Clicked:<input type="text" id="output" value="0" readonly></div>
+	<div>Cookering Clicks Clicked:<input type="text" id="clicks" value="0" readonly></div>
+	<div id="message"></div>
 
 </body>
 </html>
