@@ -1,0 +1,20 @@
+html{
+    height: 100%;
+}
+body {
+    background: url('../img/dota2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    padding: 10% 0;
+}
+img{
+    border:2px solid black;
+}
+.jumbotron{
+    background-color: rgba(255, 255, 255, 0.8);
+    vertical-align: middle;
+}
+.top-buffer {
+    margin-top:20px;
+}

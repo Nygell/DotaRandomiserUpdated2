@@ -2,115 +2,43 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<title>Clicking Cooker</title>
+	<title>Angelic Endurance</title>
 	<link rel="stylesheet" media="screen" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" media="screen" href="assets/css/custom.css">
+	<link rel="stylesheet" media="screen" href="assets/css/main.css">
 	<script type='text/javascript' src='assets/js/jquery.min.js'></script>
 	<script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
 </head>
-<body>	
-	<div class="container">
-		<div class="row clearfix">
-			<div class="col-md-12 column">
-				<nav class="navbar navbar-inverse" role="navigation">
-					<div class="navbar-header">
-						 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Igglyboo</a>
-					</div>
-					
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-
-							<li class="dropdown">
-								 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cool Stuff<strong class="caret"></strong></a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="#">Hat</a>
-									</li>
-									<li>
-										<a href="#">Online</a>
-									</li>
-									<li>
-										<a href="#">Cookering</a>
-									</li>
-									<li class="divider">
-									</li>
-									<li>
-										<a href="#">Click</a>
-									</li>
-									<li class="divider">
-									</li>
-									<li>
-										<a href="#">Thomas The Train</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</div>
-		<script type='text/javascript'>
-			$(window).load(function(){
-			$('#target0').click(function() {
-				var messages = ["Good click bro!", "You suck bro!", "Think you can throw my cook up there bro?",
-								"Venom with a skullcap.", "Cook on, now and forever.", "Cook them thighs.", "Get cook with it.",
-								"Cook la Click.", "Cooktrek The Next Clickenation.", "Her cook click smooth like Calliou."]
-				var click_amount = $('#clicks0').val() * 1;
-				$('#clicks0').val(click_amount + 1);
-				$('#message0').html(messages[click_amount % messages.length]);
-				var value = 0;
-			});
-			$('#target1').click(function() {
-				var messages = ["Good click bro!", "You suck bro!", "Think you can throw my cook up there bro?",
-								"Venom with a skullcap.", "Cook on, now and forever.", "Cook them thighs.", "Get cook with it.",
-								"Cook la Click.", "Cooktrek The Next Clickenation.", "Her cook click smooth like Calliou."]
-				var click_amount = $('#clicks1').val() * 1;
-				$('#clicks1').val(click_amount + 1);
-				$('#message1').html(messages[click_amount % messages.length]);
-				var value = 0;
-			});
-			$('#target2').click(function() {
-				var messages = ["Good click bro!", "You suck bro!", "Think you can throw my cook up there bro?",
-								"Venom with a skullcap.", "Cook on, now and forever.", "Cook them thighs.", "Get cook with it.",
-								"Cook la Click.", "Cooktrek The Next Clickenation.", "Her cook click smooth like Calliou."]
-				var click_amount = $('#clicks2').val() * 1;
-				$('#clicks2').val(click_amount + 1);
-				$('#message2').html(messages[click_amount % messages.length]);
-				var value = 0;
-			});
-			$('#target3').click(function() {
-				var messages = ["Good click bro!", "You suck bro!", "Think you can throw my cook up there bro?",
-								"Venom with a skullcap.", "Cook on, now and forever.", "Cook them thighs.", "Get cook with it.",
-								"Cook la Click.", "Cooktrek The Next Clickenation.", "Her cook click smooth like Calliou."]
-				var click_amount = $('#clicks3').val() * 1;
-				$('#clicks3').val(click_amount + 1);
-				$('#message3').html(messages[click_amount % messages.length]);
-				var value = 0;
-			});
-			});
-		</script>
-		<div class="row clearfix">
-			<div class="col-md-3">
-				<button id="target0" type="button"><img src="assets/img/cookie.jpg" id="cook"></button>
-				<div>Cookering Clicks Clicked:<input type="text" id="clicks0" value="0" readonly></div>
-				<div id="message0"></div>
-			</div>
-			<div class="col-md-3">
-				<button id="target1" type="button"><img src="assets/img/cookie.jpg" id="cook"></button>
-				<div>Cookering Clicks Clicked:<input type="text" id="clicks1" value="0" readonly></div>
-				<div id="message1"></div>
-			</div>
-			<div class="col-md-3">
-				<button id="target2" type="button"><img src="assets/img/cookie.jpg" id="cook"></button>
-				<div>Cookering Clicks Clicked:<input type="text" id="clicks2" value="0" readonly></div>
-				<div id="message2"></div>
-			</div>
-			<div class="col-md-3">
-				<button id="target3" type="button"><img src="assets/img/cookie.jpg" id="cook"></button>
-				<div>Cookering Clicks Clicked:<input type="text" id="clicks3" value="0" readonly></div>
-				<div id="message3"></div>
-			</div>
-		</div>
-	</div>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <img src="assets/img/Heroes/abaddon_lg.png" class="img-rounded" width="205" height="115">
+            </div>
+            <div class="row top-buffer">
+                <div class="col-sm-offset-3 col-sm-2">
+                    <img src="assets/img/Items/recipe_lg.png" class="img-rounded" width="85" height="64">
+                </div>
+                <div class="col-sm-2">
+                    <img src="assets/img/Items/recipe_lg.png" class="img-rounded" width="85" height="64">
+                </div>
+                <div class="col-sm-2">
+                    <img src="assets/img/Items/recipe_lg.png" class="img-rounded" width="85" height="64">
+                </div>
+            </div>
+            <div class="row top-buffer">
+                <div class="col-sm-offset-3 col-sm-2">
+                    <img src="assets/img/Items/recipe_lg.png" class="img-rounded" width="85" height="64">
+                </div>
+                <div class="col-sm-2">
+                    <img src="assets/img/Items/recipe_lg.png" class="img-rounded" width="85" height="64">
+                </div>
+                <div class="col-sm-2">
+                    <img src="assets/img/Items/recipe_lg.png" class="img-rounded" width="85" height="64">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
