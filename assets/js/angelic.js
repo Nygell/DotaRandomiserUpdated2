@@ -540,7 +540,9 @@ $(document).ready(function() {
     $("#generate").click(function(){
         var buildoutput = "Hero: ";
         var hero_rand = Math.floor(Math.random() * heros.length);
-        $("#hero-img").attr("src", "assets/img/Heroes/".concat(heros[hero_rand]["img-name"]));
+        var $hero_img = $("#hero-img");
+        $hero_img.attr("src", "assets/img/Heroes/".concat(heros[hero_rand]["img-name"]));
+        $hero_img.attr("title", heros[hero_rand]["localized_name"]);
         buildoutput = buildoutput.concat(heros[hero_rand]["localized_name"]);
         $("#build-output").val(buildoutput);
 //        $("#hero-img").fadeOut(function() {
