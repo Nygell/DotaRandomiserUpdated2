@@ -22,22 +22,20 @@ textarea{
 .top-buffer {
     margin-top:10px;
 }
-.attribute > input[type=radio]{
+.attribute > input[type=checkbox]{
   display:none;
 }
-input[type=radio] + img{
+input[type=checkbox] + img{
   cursor:pointer;
   border:2px solid transparent;
+  opacity: 0.4;
 }
-input[type=radio]:checked + img{
-
-  border:2px solid #f00;
+input[type=checkbox]:checked + img{
+  opacity: 1;
 }
-
 #hidden-div{
     display:block;
     height:0px;
     width:0px;
     overflow:hidden;
-
 }
