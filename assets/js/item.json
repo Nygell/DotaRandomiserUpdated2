@@ -1,619 +1,295 @@
-[
-    {
-        "id": 1,
-        "name": "blink"
-    },
-    {
-        "id": 2,
-        "name": "blades_of_attack"
-    },
-    {
-        "id": 3,
-        "name": "broadsword"
-    },
-    {
-        "id": 4,
-        "name": "chainmail"
-    },
-    {
-        "id": 5,
-        "name": "claymore"
-    },
-    {
-        "id": 6,
-        "name": "helm_of_iron_will"
-    },
-    {
-        "id": 7,
-        "name": "javelin"
-    },
-    {
-        "id": 8,
-        "name": "mithril_hammer"
-    },
-    {
-        "id": 9,
-        "name": "platemail"
-    },
-    {
-        "id": 10,
-        "name": "quarterstaff"
-    },
-    {
-        "id": 11,
-        "name": "quelling_blade"
-    },
-    {
-        "id": 12,
-        "name": "ring_of_protection"
-    },
-    {
-        "id": 182,
-        "name": "stout_shield"
-    },
-    {
-        "id": 13,
-        "name": "gauntlets"
-    },
-    {
-        "id": 14,
-        "name": "slippers"
-    },
-    {
-        "id": 15,
-        "name": "mantle"
-    },
-    {
-        "id": 16,
-        "name": "branches"
-    },
-    {
-        "id": 17,
-        "name": "belt_of_strength"
-    },
-    {
-        "id": 18,
-        "name": "boots_of_elves"
-    },
-    {
-        "id": 19,
-        "name": "robe"
-    },
-    {
-        "id": 20,
-        "name": "circlet"
-    },
-    {
-        "id": 21,
-        "name": "ogre_axe"
-    },
-    {
-        "id": 22,
-        "name": "blade_of_alacrity"
-    },
-    {
-        "id": 23,
-        "name": "staff_of_wizardry"
-    },
-    {
-        "id": 24,
-        "name": "ultimate_orb"
-    },
-    {
-        "id": 25,
-        "name": "gloves"
-    },
-    {
-        "id": 26,
-        "name": "lifesteal"
-    },
-    {
-        "id": 27,
-        "name": "ring_of_regen"
-    },
-    {
-        "id": 28,
-        "name": "sobi_mask"
-    },
-    {
-        "id": 29,
-        "name": "boots"
-    },
-    {
-        "id": 30,
-        "name": "gem"
-    },
-    {
-        "id": 31,
-        "name": "cloak"
-    },
-    {
-        "id": 32,
-        "name": "talisman_of_evasion"
-    },
-    {
-        "id": 33,
-        "name": "cheese"
-    },
-    {
-        "id": 34,
-        "name": "magic_stick"
-    },
-
-    {
-        "id": 36,
-        "name": "magic_wand"
-    },
-    {
-        "id": 37,
-        "name": "ghost"
-    },
-    {
-        "id": 38,
-        "name": "clarity"
-    },
-    {
-        "id": 39,
-        "name": "flask"
-    },
-    {
-        "id": 40,
-        "name": "dust"
-    },
-    {
-        "id": 41,
-        "name": "bottle"
-    },
-    {
-        "id": 42,
-        "name": "ward_observer"
-    },
-    {
-        "id": 43,
-        "name": "ward_sentry"
-    },
-    {
-        "id": 44,
-        "name": "tango"
-    },
-    {
-        "id": 45,
-        "name": "courier"
-    },
-    {
-        "id": 46,
-        "name": "tpscroll"
-    },
-
-    {
-        "id": 48,
-        "name": "travel_boots"
-    },
-
-    {
-        "id": 50,
-        "name": "phase_boots"
-    },
-    {
-        "id": 51,
-        "name": "demon_edge"
-    },
-    {
-        "id": 52,
-        "name": "eagle"
-    },
-    {
-        "id": 53,
-        "name": "reaver"
-    },
-    {
-        "id": 54,
-        "name": "relic"
-    },
-    {
-        "id": 55,
-        "name": "hyperstone"
-    },
-    {
-        "id": 56,
-        "name": "ring_of_health"
-    },
-    {
-        "id": 57,
-        "name": "void_stone"
-    },
-    {
-        "id": 58,
-        "name": "mystic_staff"
-    },
-    {
-        "id": 59,
-        "name": "energy_booster"
-    },
-    {
-        "id": 60,
-        "name": "point_booster"
-    },
-    {
-        "id": 61,
-        "name": "vitality_booster"
-    },
-
-    {
-        "id": 63,
-        "name": "power_treads"
-    },
-
-    {
-        "id": 65,
-        "name": "hand_of_midas"
-    },
-
-    {
-        "id": 67,
-        "name": "oblivion_staff"
-    },
-
-    {
-        "id": 69,
-        "name": "pers"
-    },
-
-    {
-        "id": 71,
-        "name": "poor_mans_shield"
-    },
-
-    {
-        "id": 73,
-        "name": "bracer"
-    },
-
-    {
-        "id": 75,
-        "name": "wraith_band"
-    },
-
-    {
-        "id": 77,
-        "name": "null_talisman"
-    },
-
-    {
-        "id": 79,
-        "name": "mekansm"
-    },
-
-    {
-        "id": 81,
-        "name": "vladmir"
-    },
-    {
-        "id": 84,
-        "name": "flying_courier"
-    },
-
-    {
-        "id": 86,
-        "name": "buckler"
-    },
-
-    {
-        "id": 88,
-        "name": "ring_of_basilius"
-    },
-
-    {
-        "id": 90,
-        "name": "pipe"
-    },
-
-    {
-        "id": 92,
-        "name": "urn_of_shadows"
-    },
-
-    {
-        "id": 94,
-        "name": "headdress"
-    },
-
-    {
-        "id": 96,
-        "name": "sheepstick"
-    },
-
-    {
-        "id": 98,
-        "name": "orchid"
-    },
-
-    {
-        "id": 100,
-        "name": "cyclone"
-    },
-
-    {
-        "id": 102,
-        "name": "force_staff"
-    },
-
-
-    {
-        "id": 104,
-        "name": "dagon"
-    },
-    {
-        "id": 201,
-        "name": "dagon_2"
-    },
-    {
-        "id": 202,
-        "name": "dagon_3"
-    },
-    {
-        "id": 203,
-        "name": "dagon_4"
-    },
-    {
-        "id": 204,
-        "name": "dagon_5"
-    },
-
-
-    {
-        "id": 106,
-        "name": "necronomicon"
-    },
-    {
-        "id": 193,
-        "name": "necronomicon_2"
-    },
-    {
-        "id": 194,
-        "name": "necronomicon_3"
-    },
-
-    {
-        "id": 108,
-        "name": "ultimate_scepter"
-    },
-
-    {
-        "id": 110,
-        "name": "refresher"
-    },
-
-    {
-        "id": 112,
-        "name": "assault"
-    },
-
-    {
-        "id": 114,
-        "name": "heart"
-    },
-
-    {
-        "id": 116,
-        "name": "black_king_bar"
-    },
-    {
-        "id": 117,
-        "name": "aegis"
-    },
-
-    {
-        "id": 119,
-        "name": "shivas_guard"
-    },
-
-    {
-        "id": 121,
-        "name": "bloodstone"
-    },
-
-    {
-        "id": 123,
-        "name": "sphere"
-    },
-
-    {
-        "id": 125,
-        "name": "vanguard"
-    },
-
-    {
-        "id": 127,
-        "name": "blade_mail"
-    },
-
-    {
-        "id": 129,
-        "name": "soul_booster"
-    },
-
-    {
-        "id": 131,
-        "name": "hood_of_defiance"
-    },
-
-    {
-        "id": 133,
-        "name": "rapier"
-    },
-
-    {
-        "id": 135,
-        "name": "monkey_king_bar"
-    },
-
-    {
-        "id": 137,
-        "name": "radiance"
-    },
-
-    {
-        "id": 139,
-        "name": "butterfly"
-    },
-
-    {
-        "id": 141,
-        "name": "greater_crit"
-    },
-
-    {
-        "id": 143,
-        "name": "basher"
-    },
-
-    {
-        "id": 145,
-        "name": "bfury"
-    },
-
-    {
-        "id": 147,
-        "name": "manta"
-    },
-
-    {
-        "id": 149,
-        "name": "lesser_crit"
-    },
-
-    {
-        "id": 151,
-        "name": "armlet"
-    },
-
-    {
-        "id": 152,
-        "name": "invis_sword"
-    },
-
-    {
-        "id": 154,
-        "name": "sange_and_yasha"
-    },
-
-    {
-        "id": 156,
-        "name": "satanic"
-    },
-
-    {
-        "id": 158,
-        "name": "mjollnir"
-    },
-
-    {
-        "id": 160,
-        "name": "skadi"
-    },
-
-    {
-        "id": 162,
-        "name": "sange"
-    },
-
-    {
-        "id": 164,
-        "name": "helm_of_the_dominator"
-    },
-
-    {
-        "id": 166,
-        "name": "maelstrom"
-    },
-
-    {
-        "id": 168,
-        "name": "desolator"
-    },
-
-    {
-        "id": 170,
-        "name": "yasha"
-    },
-
-    {
-        "id": 172,
-        "name": "mask_of_madness"
-    },
-
-
-    {
-        "id": 174,
-        "name": "diffusal_blade"
-    },
-
-
-    {
-        "id": 176,
-        "name": "ethereal_blade"
-    },
-
-    {
-        "id": 178,
-        "name": "soul_ring"
-    },
-
-    {
-        "id": 180,
-        "name": "arcane_boots"
-    },
-    {
-        "id": 181,
-        "name": "orb_of_venom"
-    },
-
-    {
-        "id": 185,
-        "name": "ancient_janggo"
-    },
-
-    {
-        "id": 187,
-        "name": "medallion_of_courage"
-    },
-    {
-        "id": 188,
-        "name": "smoke_of_deceit"
-    },
-
-    {
-        "id": 190,
-        "name": "veil_of_discord"
-    },
-
-    {
-        "id": 206,
-        "name": "rod_of_atos"
-    },
-
-    {
-        "id": 208,
-        "name": "abyssal_blade"
-    },
-
-    {
-        "id": 210,
-        "name": "heavens_halberd"
-    },
-
-    {
-        "id": 212,
-        "name": "ring_of_aquila"
-    },
-
-    {
-        "id": 214,
-        "name": "tranquil_boots"
-    },
-    {
-        "id": 215,
-        "name": "shadow_amulet"
-    }
-]
+[{
+    "img": "boots_lg.png",
+    "cost": 450,
+    "id": 29,
+    "qual": "component",
+    "dname": "Boots of Speed"
+},{
+    "id": 206,
+    "img": "rod_of_atos_lg.png",
+    "dname": "Rod of Atos",
+    "qual": "rare",
+    "cost": 3100
+},{
+    "id": 176,
+    "img": "ethereal_blade_lg.png",
+    "dname": "Ethereal Blade",
+    "qual": "epic",
+    "cost": 4900
+},{
+    "img": "desolator_lg.png",
+    "cost": 4100,
+    "id": 168,
+    "qual": "artifact",
+    "dname": "Desolator"
+},{
+    "img": "mjollnir_lg.png",
+    "cost": 5300,
+    "id": 158,
+    "qual": "artifact",
+    "dname": "Mjollnir"
+},{
+    "img": "butterfly_lg.png",
+    "cost": 6000,
+    "id": 139,
+    "qual": "epic",
+    "dname": "Butterfly"
+},{
+    "img": "bloodstone_lg.png",
+    "cost": 5050,
+    "id": 121,
+    "qual": "epic",
+    "dname": "Bloodstone"
+},{
+    "img": "satanic_lg.png",
+    "cost": 6150,
+    "id": 156,
+    "qual": "artifact",
+    "dname": "Satanic"
+},{
+    "img": "necronomicon_3_lg.png",
+    "cost": 2700,
+    "id": 194,
+    "qual": "rare",
+    "dname": "Necronomicon"
+},{
+    "img": "tranquil_boots_lg.png",
+    "cost": 975,
+    "id": 214,
+    "qual": "rare",
+    "dname": "Tranquil Boots"
+},{
+    "img": "power_treads_lg.png",
+    "cost": 1400,
+    "id": 63,
+    "qual": "common",
+    "dname": "Power Treads"
+},{
+    "img": "radiance_lg.png",
+    "cost": 5150,
+    "id": 137,
+    "qual": "epic",
+    "dname": "Radiance"
+},{
+    "img": "bfury_lg.png",
+    "cost": 4350,
+    "id": 145,
+    "qual": "epic",
+    "dname": "Battle Fury"
+},{
+    "img": "abyssal_blade_lg.png",
+    "cost": 6750,
+    "id": 208,
+    "qual": "epic",
+    "dname": "Abyssal Blade"
+},{
+    "img": "dagon_5_lg.png",
+    "cost": 2850,
+    "id": 202,
+    "qual": "rare",
+    "dname": "Dagon"
+},{
+    "img": "monkey_king_bar_lg.png",
+    "cost": 5400,
+    "id": 135,
+    "qual": "epic",
+    "dname": "Monkey King Bar"
+},{
+    "img": "sheepstick_lg.png",
+    "cost": 5675,
+    "id": 96,
+    "qual": "rare",
+    "dname": "Scythe of Vyse"
+},{
+    "img": "ultimate_scepter_lg.png",
+    "cost": 4200,
+    "id": 108,
+    "qual": "rare",
+    "dname": "Aghanim's Scepter"
+},{
+    "img": "skadi_lg.png",
+    "cost": 5675,
+    "id": 160,
+    "qual": "artifact",
+    "dname": "Eye of Skadi"
+},{
+    "img": "manta_lg.png",
+    "cost": 5050,
+    "id": 147,
+    "qual": "epic",
+    "dname": "Manta Style"
+},{
+    "img": "armlet_lg.png",
+    "cost": 2600,
+    "id": 151,
+    "qual": "epic",
+    "dname": "Armlet of Mordiggian"
+},{
+    "img": "vanguard_lg.png",
+    "cost": 2225,
+    "id": 125,
+    "qual": "epic",
+    "dname": "Vanguard"
+},{
+    "img": "shivas_guard_lg.png",
+    "cost": 4700,
+    "id": 119,
+    "qual": "epic",
+    "dname": "Shiva's Guard"
+},{
+    "img": "rapier_lg.png",
+    "cost": 6200,
+    "id": 133,
+    "qual": "epic",
+    "dname": "Divine Rapier"
+},{
+    "img": "pipe_lg.png",
+    "cost": 3625,
+    "id": 90,
+    "qual": "rare",
+    "dname": "Pipe of Insight"
+},{
+    "img": "heart_lg.png",
+    "cost": 5500,
+    "id": 114,
+    "qual": "epic",
+    "dname": "Heart of Tarrasque"
+},{
+    "img": "vladmir_lg.png",
+    "cost": 2050,
+    "id": 81,
+    "qual": "rare",
+    "dname": "Vladmir's Offering"
+},{
+    "img": "lesser_crit_lg.png",
+    "cost": 2150,
+    "id": 149,
+    "qual": "epic",
+    "dname": "Crystalys"
+},{
+    "img": "sange_and_yasha_lg.png",
+    "cost": 4100,
+    "id": 154,
+    "qual": "artifact",
+    "dname": "Sange and Yasha"
+},{
+    "img": "travel_boots_lg.png",
+    "cost": 2450,
+    "id": 48,
+    "qual": "common",
+    "dname": "Boots of Travel"
+},{
+    "img": "invis_sword_lg.png",
+    "cost": 3000,
+    "id": 152,
+    "qual": "epic",
+    "dname": "Shadow Blade"
+},{
+    "img": "orchid_lg.png",
+    "cost": 5025,
+    "id": 98,
+    "qual": "rare",
+    "dname": "Orchid Malevolence"
+},{
+    "img": "assault_lg.png",
+    "cost": 5250,
+    "id": 112,
+    "qual": "epic",
+    "dname": "Assault Cuirass"
+},{
+    "img": "ancient_janggo_lg.png",
+    "cost": 1875,
+    "id": 185,
+    "qual": "rare",
+    "dname": "Drum of Endurance"
+},{
+    "img": "arcane_boots_lg.png",
+    "cost": 1450,
+    "id": 180,
+    "qual": "rare",
+    "dname": "Arcane Boots"
+},{
+    "img": "phase_boots_lg.png",
+    "cost": 1350,
+    "id": 50,
+    "qual": "common",
+    "dname": "Phase Boots"
+},{
+    "img": "sphere_lg.png",
+    "cost": 5175,
+    "id": 123,
+    "qual": "epic",
+    "dname": "Linken's Sphere"
+},{
+    "img": "medallion_of_courage_lg.png",
+    "cost": 1075,
+    "id": 187,
+    "qual": "rare",
+    "dname": "Medallion of Courage"
+},{
+    "img": "veil_of_discord_lg.png",
+    "cost": 2675,
+    "id": 190,
+    "qual": "rare",
+    "dname": "Veil of Discord"
+},{
+    "img": "heavens_halberd_lg.png",
+    "cost": 3850,
+    "id": 210,
+    "qual": "artifact",
+    "dname": "Heaven's Halberd"
+},{
+    "img": "black_king_bar_lg.png",
+    "cost": 3975,
+    "id": 116,
+    "qual": "epic",
+    "dname": "Black King Bar"
+},{
+    "img": "hand_of_midas_lg.png",
+    "cost": 2050,
+    "id": 65,
+    "qual": "common",
+    "dname": "Hand of Midas"
+},{
+    "img": "greater_crit_lg.png",
+    "cost": 5550,
+    "id": 141,
+    "qual": "epic",
+    "dname": "Daedalus"
+},{
+    "img": "blink_lg.png",
+    "cost": 2150,
+    "id": 1,
+    "qual": "component",
+    "dname": "Blink Dagger"
+},{
+    "img": "diffusal_blade_2_lg.png",
+    "cost": 3300,
+    "id": 196,
+    "qual": "artifact",
+    "dname": "Diffusal Blade"
+},{
+    "img": "diffusal_blade_lg.png",
+    "cost": 3300,
+    "id": 174,
+    "qual": "artifact",
+    "dname": "Diffusal Blade"
+},{
+    "img": "cyclone_lg.png",
+    "cost": 2700,
+    "id": 100,
+    "qual": "rare",
+    "dname": "Eul's Scepter of Divinity"
+},{
+    "img": "mask_of_madness_lg.png",
+    "cost": 1900,
+    "id": 172,
+    "qual": "artifact",
+    "dname": "Mask of Madness"
+},{
+    "img": "mekansm_lg.png",
+    "cost": 2300,
+    "id": 79,
+    "qual": "rare",
+    "dname": "Mekansm"
+}]
