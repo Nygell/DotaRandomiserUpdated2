@@ -1,5 +1,8 @@
-$(document).ready(function () {
-    $("#generate").click(function () {
+$(window).load(function () {
+    var button =  $("#generate");
+    button.prop("disabled", false);
+    button.html("Generate Build");
+    button.click(function () {
         var heros = [
             {
                 "img": "antimage_lg.jpg",
