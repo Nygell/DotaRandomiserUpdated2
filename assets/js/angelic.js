@@ -837,13 +837,6 @@ $(window).load(function () {
                 "localized_name": "Vladmir's Offering"
             },
             {
-                "img": "lesser_crit_lg.jpg",
-                "cost": 2150,
-                "id": 149,
-                "qual": "epic",
-                "localized_name": "Crystalys"
-            },
-            {
                 "img": "sange_and_yasha_lg.jpg",
                 "cost": 4100,
                 "id": 154,
