@@ -1015,18 +1015,18 @@ $(window).load(function () {
         var hero_rand = Math.floor(Math.random() * heroes[attr_rand].length);
         $hero_img.attr("src", "assets/img/Heroes/".concat(heroes[attr_rand][hero_rand]["img"]));
         $hero_img.attr("title", heroes[attr_rand][hero_rand]["localized_name"]);
-        var build_output = heroes[attr_rand][hero_rand]["localized_name"] + "\n";
+        var build_output = heroes[attr_rand][hero_rand]["localized_name"] + " \n";
 
         var boot_rand = Math.floor(Math.random() * boots.length);
         $boot_img.attr("src", "assets/img/Boots/".concat(boots[boot_rand]["img"]));
         $boot_img.attr("title", boots[boot_rand]["localized_name"]);
-        build_output += boots[boot_rand]["localized_name"] + "\n";
+        build_output += boots[boot_rand]["localized_name"] + " \n";
 
         for (var i = 0; i < 5; i++) {
             var item_rand = Math.floor(Math.random() * items.length);
             $item_img[i].attr("src", "assets/img/Items/".concat(items[item_rand]["img"]));
             $item_img[i].attr("title", items[item_rand]["localized_name"]);
-            build_output += items[item_rand]["localized_name"] + "\n";
+            build_output += items[item_rand]["localized_name"] + " \n";
             items.splice(item_rand, 1)
         }
 
