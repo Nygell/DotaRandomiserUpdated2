@@ -935,13 +935,6 @@ $(window).load(function () {
                 "localized_name": "Diffusal Blade"
             },
             {
-                "img": "diffusal_blade_lg.jpg",
-                "cost": 3300,
-                "id": 174,
-                "qual": "artifact",
-                "localized_name": "Diffusal Blade"
-            },
-            {
                 "img": "cyclone_lg.jpg",
                 "cost": 2700,
                 "id": 100,
